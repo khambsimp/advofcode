@@ -44,6 +44,14 @@ Note the occurrence of a particular crop is also equal to its area. This value s
 1.7 We must traverse the entire area at least once again. We must designate each "row plot" its own entity and perimeter, this one is medium.
 1.8 Next we must designate the plots which are contiguous by continuing on another row.
 
+# Test Solution
+To test my solution simply:
+Command Line Interface Instructions:
+Mac OS Terminal:
+1. Fork this repository to your own computer using git.
+2. Then make sure to install your favorite C compiler. I recommend gcc or clang.
+3. Compile this program within the advofcode directory.
+4. Pipe the testplot.txt testfile into the day12 executable and check the resulting value of the testplot.txt calculated cost. Is it correct?
 
 
 
