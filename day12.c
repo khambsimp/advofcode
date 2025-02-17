@@ -10,7 +10,7 @@ int main(int argc, char const *argv[]){
   int plant_plot = 0;
 
   plant_plot = getchar();
-  while (plant_plot != EOF){
+  while (plant_plot != 10){
     putchar(plant_plot);
     plant_plot = getchar();
     garden_width = garden_width + 1;
