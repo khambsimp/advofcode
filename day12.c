@@ -26,7 +26,7 @@ int main(int argc, char const *argv[]){
 
   get_height_width();
 
-  plant_plot = 0;
+  int plant_plot = 0;
 
   plant_plot = getchar();
 
