@@ -37,8 +37,7 @@ Done!
 1.3 Now lets characterize each different char as representing a different crop.
 This could be done with getchar()! The next problem is every time I call getchar() it keeps moving an internal index within the UTF-8 file. Where is this memory saved? lets break this out into another function and see if it will reset its internal index.
 
-1.4 When a char is first encountered it should be stored. When a new char is encountered it should be stored as well.
-Note the occurrence of a particular crop is also equal to its area. This value should also be stored as an integer.
+1.4 When a char is first encountered it should be stored. When a new char is encountered it should be stored as well. Note the occurrence of a particular crop is also equal to its area. This value should also be stored as an integer.
 
 1.5 Now assume we are traversing the data like a stream. We know which row and column we are at. And we know if we have touched a different crop or not. Assuming we are moving right to left, and top to down to calculate contiguous areas we must do what?
 
