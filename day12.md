@@ -26,12 +26,12 @@ BBCD
 BBCC
 EEEC
 
-1. It is a square. what assumptions can we make about squares? Height = Width. Meaning once I have the width, then I have the height. Were this a stream of data, let's say I counted the number of characters until the newline character.
+1. It is a square. What assumptions can we make about squares? Height = Width. Meaning once I have the width, then I have the height. Were this a stream of data, let's say I counted the number of characters until the newline character.
 
 1.1 Count until newline character. Store this integer as width.
 Done!
 
-1.2 that same integer can be set to the height of the field in the text character.
+1.2 That same integer can be set to the height of the field in the text character.
 Done!
 
 1.3 Now lets characterize each different char as representing a different crop.
