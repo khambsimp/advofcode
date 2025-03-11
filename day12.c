@@ -13,17 +13,11 @@ int main(int argc, char const *argv[]){
 
   while (plant_plot != 10){
     plant_plot = getchar();
-    last_plot_kind = plant_plot;
+    new_plot_kind = plant_plot;
 
-    garden_width = garden_width + 1;
 
-    if (plant_plot == last_plot_kind) {
-      pot_row = pot_row + 1;
-    } else if( plant_plot =! last_plot_kind){
-      new_plot_kind = last_plot_kind;
-    }
     /* Print the char of the first plant plot row */
-    printf("%c", pot_row);
+    printf("%c", new_plot_kind);
   }
 
   while (plant_plot != EOF){
