@@ -14,7 +14,7 @@ int main(int argc, char const *argv[]){
   while (plant_plot != 10){
     plant_plot = getchar();
     new_plot_kind = plant_plot;
-
+    garden_width = garden_width + 1;
 
     /* Print the char of the first plant plot row */
     printf("%c", new_plot_kind);
