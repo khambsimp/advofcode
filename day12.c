@@ -3,8 +3,8 @@
 
 int main(int argc, char const *argv[]){
 
-  /* The get_width get_height potion */
-  int garden_width = 0;
+  /* Set Constants */
+  int garden_width = -1;
   int garden_height = 0;
   int plant_plot = 0;
   int new_plot_kind = 0;
