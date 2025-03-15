@@ -35,7 +35,7 @@ Done!
 Done!
 
 4. Now lets characterize each different char as representing a different crop.
-This could be done with getchar()! The stdin receives a file as stream of data.
+This could be done with '''getchar()'''! The stdin receives a file as stream of data.
 It is easier to perceive the program in this way, and use memory to save the data the program is iterating through. Try structuring the Software this way.
 
 5. When a char is first encountered it should be stored. When a new char is encountered it should be stored as well. Note the occurrence of a particular crop is also equal to its area. This value should also be stored as an integer. <- here!
