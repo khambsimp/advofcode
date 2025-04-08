@@ -48,6 +48,10 @@ It is easier to perceive the program in this way, and use memory to save the dat
 Steps 4 through 7 could be summarized using the development of a Graph Data Structure. Graphs are a unique abstract representation developed from vertices and edges, where the precise flavor of Graph identified can affect the data structures used to represent them, and the algorithms used to analyze them.
 
 How can graphs be used in this problem?
+Let's assume or say that each individual point, or plot has its own set of points on its edge, with vertices stating which plots are directly connected to it. Note 2-D Tables, and Graphs can all be used to describe graph relationships.
+ Numbers and names can both refer to relationships and integers on a graph. Let's propose a graph to describe the problem using the most simple which encapsulates the problems complexity.
+
+ Lets choose a simple data structure and see what can work for Example 1.
 
 8. We must traverse the entire area at least once again. We must designate each "row plot" its own entity and perimeter, this one is medium.
 
@@ -61,7 +65,6 @@ Mac OS Terminal:
 2. Then make sure to install your favorite C compiler. I recommend gcc or clang.
 3. Compile this program within the advofcode directory.
 4. Pipe the testplot.txt testfile into the day12 executable and check the resulting value of the testplot.txt calculated cost. Is it correct?
-
 
 
 
