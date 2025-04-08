@@ -34,16 +34,20 @@ Done!
 3. That same integer can be set to the height of the field in the text character.
 Done!
 
-4. Now lets characterize each different char as representing a different crop.
-This could be done with ```getchar()```! The stdin receives a file as stream of data.
+4. Now lets characterize each different char as representing a different crop. This could be done with ```getchar()```! The stdin receives a file as stream of data.
 It is easier to perceive the program in this way, and use memory to save the data the program is iterating through. Try structuring the Software this way.
 
-5. When a char is first encountered it should be stored. When a new char is encountered it should be stored as well. Note the occurrence of a particular crop is also equal to its area. This value should also be stored as an integer. <- here!
+5. When a char is first encountered it should be stored. When a new char is encountered it should be stored as well. Note the occurrence of a particular crop is also equal to its area. This value should also be stored as an integer.
 5.1 the first char encountered is stored, if in a row the perimeter is calculated. if different chars are on the same line can they be counted and stored?
 
 6. Now assume we are traversing the data like a stream. We know which row and column we are at. And we know if we have touched a different crop or not. Assuming we are moving right to left, and top to down to calculate contiguous areas we must do what?
 
 7. We must designate all the plots that are "single plots" with their own perimeter this is easiest.
+
+# Graph Theory
+Steps 4 through 7 could be summarized using the development of a Graph Data Structure. Graphs are a unique abstract representation developed from vertices and edges, where the precise flavor of Graph identified can affect the data structures used to represent them, and the algorithms used to analyze them.
+
+How can graphs be used in this problem?
 
 8. We must traverse the entire area at least once again. We must designate each "row plot" its own entity and perimeter, this one is medium.
 
