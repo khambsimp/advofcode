@@ -51,7 +51,9 @@ How can graphs be used in this problem?
 Let's assume or say that each individual point, or plot has its own set of points on its edge, with vertices stating which plots are directly connected to it. Note 2-D Tables, and Graphs can all be used to describe graph relationships.
  Numbers and names can both refer to relationships and integers on a graph. Let's propose a graph to describe the problem using the most simple which encapsulates the problems complexity.
 
- Lets choose a simple data structure and see what can work for Example 1.
+ Let's choose a simple data structure and see what can work for Example 1.
+
+ Let's try to formulate these aspects of the graph using an adjacency list.
 
 8. We must traverse the entire area at least once again. We must designate each "row plot" its own entity and perimeter, this one is medium.
 
